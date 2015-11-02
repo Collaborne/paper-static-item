@@ -1,0 +1,27 @@
+{
+  "name": "paper-static-item",
+  "version": "1.0.0",
+  "authors": [
+    "collaborne"
+  ],
+  "description": "A Material Design non-focusable item with header and content (Polymer 1.x)",
+  "main": "paper-static-item.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "paper",
+    "material design",
+    "lists",
+    "item"
+  ],
+  "license": "Apache 2",
+  "homepage": "http://www.apache.org/licenses/LICENSE-2.0",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0"
+  }
+}

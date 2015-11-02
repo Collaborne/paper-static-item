@@ -1,0 +1,62 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../paper-styles/paper-styles.html">
+
+<dom-module id='paper-static-item'>
+
+	<template>
+
+		<style>
+			:host {
+				padding: 0 16px;
+				display: block;
+			}
+			
+			.header {
+				min-height: 48px;
+				opacity: var(--dark-primary-opacity);
+				@apply(--layout-horizontal);
+				@apply(--layout-center-center);
+				@apply(--paper-font-subhead);
+			}
+			
+			.icon {
+				margin-right: 24px;
+				opacity: var(--dark-secondary-opacity);
+				--iron-icon-height: 32px;
+				--iron-icon-width: 32px;
+			}
+			
+			.content {
+				opacity: var(--dark-primary-opacity);
+				@apply(--paper-font-body1);
+			}
+		</style>
+
+		<div class="header">
+			<iron-icon class='icon' icon=[[icon]]></iron-icon>
+			<div class="flex">[[header]]</div>
+		</div>
+	
+		<div class='content'>
+			<content></content>
+		</div>
+
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-static-item',
+		properties: {
+			header: String,
+			icon: String
+		}
+	});
+
+})();
+
+</script>
