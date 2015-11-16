@@ -29,7 +29,7 @@ Property   | Type    | Description
 **header** | String  | Text in the header row
 
 
-## paper-static-item
+## paper-static-icon-item
 
 A component that contains a single line with an item and content.
 
