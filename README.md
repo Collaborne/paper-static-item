@@ -11,9 +11,9 @@ paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.s
 `bower install paper-static-item`
 
 
-## <paper-static-item>
+## `<paper-static-item>`
 
-A `paper-static-item` contains a header with an icon below a content area.
+A component that contains a header with an icon below a content area.
 
 ```html
 <paper-static-item icon="icons:favorite" header="Item 1">
@@ -29,9 +29,9 @@ Property   | Type    | Description
 **header** | String  | Text in the header row
 
 
-## <paper-static-item>
+## `<paper-static-item>`
 
-A `paper-static-item` contains a single line with an item and content.
+A component that contains a single line with an item and content.
 
 ```html
 <paper-static-icon-item icon="icons:info">
