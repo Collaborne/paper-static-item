@@ -1,0 +1,57 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../../bower_components/paper-styles/paper-styles.html">
+
+<!-- 
+Non interactive list item which design is based on paper-icon-item
+
+-->
+
+<dom-module id='paper-static-icon-item'>
+
+	<template>
+
+		<style>			
+			:host {
+				display: block;
+				min-height: 48px;
+				padding: 0px 16px;
+				box-sizing: border-box;
+				@apply(--layout-horizontal);
+				@apply(--layout-center);
+				@apply(--paper-font-body1);
+			}
+			
+			.content-icon {
+				width: 56px;
+				opacity: var(--dark-secondary-opacity);
+			}
+			
+			.text {
+				white-space: pre-wrap;
+			}
+		</style>
+	
+		<div class="content-icon">
+			<iron-icon icon=[[icon]]></iron-icon>
+		</div>
+		<div class='flex'>
+			<content class='text'></content>		
+		</div>
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-static-icon-item',
+		properties: {
+			icon: String
+		}
+	});
+
+})();
+
+</script>

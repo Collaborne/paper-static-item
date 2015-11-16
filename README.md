@@ -6,24 +6,20 @@ paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.s
 ![Screenshot](/doc/screenshot.png "Screenshot")
 
 
-## Usage
+## Install
 
 `bower install paper-static-item`
+
+
+## <paper-static-item>
+
+A `paper-static-item` contains a header with an icon below a content area.
 
 ```html
 <paper-static-item icon="icons:favorite" header="Item 1">
   Lots of very interesting content.
 </paper-static-item>
-<paper-static-item icon="icons:info" header="Item 2">
-  Lots of very interesting content.
-</paper-static-item>
-<paper-static-item icon="icons:help" header="Item 3">
-  Lots of very interesting content.
-</paper-static-item>
 ```
-
-
-## Properties
 
 These properties are available for `paper-static-item`:
 
@@ -31,6 +27,23 @@ Property   | Type    | Description
 ---------- | ------- | ----------------------------
 **icon**   | String  | Icon that is shown in the header row
 **header** | String  | Text in the header row
+
+
+## <paper-static-item>
+
+A `paper-static-item` contains a single line with an item and content.
+
+```html
+<paper-static-icon-item icon="icons:info">
+  Single line static item
+</paper-static-icon-item>
+```
+
+These properties are available for `paper-static-icon-item`:
+
+Property   | Type    | Description
+---------- | ------- | ----------------------------
+**icon**   | String  | Icon that is shown
 
 
 ## License
