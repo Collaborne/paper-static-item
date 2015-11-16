@@ -14,10 +14,13 @@
 			
 			.header {
 				min-height: 48px;
-				opacity: var(--dark-primary-opacity);
 				@apply(--layout-horizontal);
 				@apply(--layout-center-center);
 				@apply(--paper-font-subhead);
+			}
+			
+			.header-text {
+				opacity: var(--dark-primary-opacity);
 			}
 			
 			.icon {
@@ -35,7 +38,7 @@
 
 		<div class="header">
 			<iron-icon class='icon' icon=[[icon]]></iron-icon>
-			<div class="flex">[[header]]</div>
+			<div class="header-text flex">[[header]]</div>
 		</div>
 	
 		<div class='content'>
