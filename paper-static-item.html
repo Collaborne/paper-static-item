@@ -2,6 +2,19 @@
 <link rel="import" href="../iron-icon/iron-icon.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
 
+<!--
+A Material Design non-focusable [item with header and content](https://www.google.com/design/spec/components/lists.html) that contains a header with an icon below a content area.
+
+### Example
+
+```html
+<paper-static-item icon="icons:favorite" header="Item 1">
+  Lots of very interesting content.
+</paper-static-item>
+```
+
+@demo demo/index.html
+-->
 <dom-module id='paper-static-item'>
 
 	<template>
@@ -55,7 +68,14 @@
 	Polymer({
 		is: 'paper-static-item',
 		properties: {
+			/**
+			 * Text in the header row
+			 */
 			header: String,
+
+			/**
+			 * Icon that is shown in the header row
+			 */
 			icon: String
 		}
 	});

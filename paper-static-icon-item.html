@@ -2,11 +2,19 @@
 <link rel="import" href="../iron-icon/iron-icon.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
 
-<!-- 
+<!--
 Non interactive list item which design is based on paper-icon-item
 
--->
+### Example
 
+```html
+<paper-static-icon-item icon="icons:favorite">
+  Lots of very interesting content.
+</paper-static-icon-item>
+```
+
+@demo demo/index.html
+-->
 <dom-module id='paper-static-icon-item'>
 
 	<template>
@@ -48,6 +56,9 @@ Non interactive list item which design is based on paper-icon-item
 	Polymer({
 		is: 'paper-static-icon-item',
 		properties: {
+			/**
+			 * Icon that is shown
+			 */
 			icon: String
 		}
 	});
