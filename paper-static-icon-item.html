@@ -19,7 +19,7 @@ Non interactive list item which design is based on paper-icon-item
 
 	<template>
 
-		<style>			
+		<style>
 			:host {
 				display: block;
 				min-height: 48px;
@@ -29,22 +29,26 @@ Non interactive list item which design is based on paper-icon-item
 				@apply(--layout-center);
 				@apply(--paper-font-body1);
 			}
-			
+
+			:host([disabled]) {
+				color: var(--disabled-text-color);
+			}
+
 			.content-icon {
 				width: 56px;
 				color: var(--disabled-text-color);
 			}
-			
+
 			.text {
 				color: var(--primary-text-color);
 			}
 		</style>
-	
+
 		<div class="content-icon">
 			<iron-icon icon=[[icon]]></iron-icon>
 		</div>
 		<div class="flex">
-			<content class="text"></content>		
+			<content class="text"></content>
 		</div>
 	</template>
 </dom-module>
