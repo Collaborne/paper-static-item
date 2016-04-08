@@ -24,25 +24,26 @@ A Material Design non-focusable [item with header and content](https://www.googl
 				padding: 0 16px;
 				display: block;
 			}
-			
+
 			.header {
 				min-height: 48px;
 				@apply(--layout-horizontal);
 				@apply(--layout-center-center);
 				@apply(--paper-font-subhead);
+				cursor: default;
 			}
-			
+
 			.header-text {
 				color: var(--primary-text-color);
 			}
-			
+
 			.icon {
 				margin-right: 24px;
 				color: var(--disabled-text-color);
 				--iron-icon-height: 32px;
 				--iron-icon-width: 32px;
 			}
-			
+
 			.content {
 				color: var(--primary-text-color);
 				@apply(--paper-font-body1);
@@ -53,7 +54,7 @@ A Material Design non-focusable [item with header and content](https://www.googl
 			<iron-icon class="icon" icon=[[icon]]></iron-icon>
 			<div class="header-text flex">[[header]]</div>
 		</div>
-	
+
 		<div class="content">
 			<content></content>
 		</div>
