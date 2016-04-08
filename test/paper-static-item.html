@@ -4,37 +4,37 @@
 		<title>paper-static-item</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+
 		<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 		<script src="../../web-component-tester/browser.js"></script>
 		<script src="../../test-fixture/test-fixture-mocha.js"></script>
-		
+
 		<link rel="import" href="../paper-static-item.html">
 		<link rel="import" href="../../test-fixture/test-fixture.html">
 	</head>
 	<body>
-	
+
 		<test-fixture id="TrivialElement">
 			<template>
 				<paper-static-item></paper-static-item>
 			</template>
 		</test-fixture>
-	
+
 		<script>
 			suite('<paper-static-item>', function() {
 				suite('basic behavior', function() {
 					var element;
-	
+
 					setup(function() {
 						element = fixture('TrivialElement');
 					});
 					
 					test('always pass (Travis requires at least one test)', function() {
-						
+
 					});
 				});
 			});
 		</script>
-	
+
 	</body>
 </html>
