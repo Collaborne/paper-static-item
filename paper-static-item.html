@@ -24,6 +24,8 @@ A Material Design non-focusable [item with header and content](https://www.googl
 			:host {
 				padding: 0 16px;
 				display: block;
+				/** Vertically center header in IE11 */
+				@apply(--layout-vertical);
 			}
 
 			.header {
