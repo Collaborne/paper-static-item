@@ -4,7 +4,7 @@ _[Demo and API Docs](http://collaborne.github.io/paper-static-item)_
 paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.svg)](http://badge.fury.io/bo/paper-static-item)
 =========
 
-`paper-static-item` provides a Material Design non-focusable [item with header and content](https://www.google.com/design/spec/components/lists.html). The web component is built with [Polymer 1.x](https://www.polymer-project.org).
+`paper-static-item` provides a Material Design non-focusable [item with header and content](https://www.google.com/design/spec/components/lists.html). The web component is built with [Polymer](https://www.polymer-project.org).
 
 ![Screenshot](/doc/screenshot.png "Screenshot")
 
