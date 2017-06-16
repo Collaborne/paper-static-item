@@ -1,17 +1,30 @@
-_[Demo and API Docs](http://collaborne.github.io/paper-static-item)_
-
-
-paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.svg)](http://badge.fury.io/bo/paper-static-item)
+paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.svg)](http://badge.fury.io/bo/paper-static-item) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-static-item)
 =========
 
 `paper-static-item` provides a Material Design non-focusable [item with header and content](https://www.google.com/design/spec/components/lists.html). The web component is built with [Polymer](https://www.polymer-project.org).
-
-![Screenshot](/doc/screenshot.png "Screenshot")
 
 
 ## Install
 
 `bower install paper-static-item`
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../iron-icons/iron-icons.html">
+    <link rel="import" href="paper-static-item.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<paper-static-item icon="icons:favorite" header="Item 1">
+    Lots of very interesting content.
+</paper-static-item>
+```
 
 
 ## License
