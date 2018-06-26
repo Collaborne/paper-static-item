@@ -1,4 +1,7 @@
 paper-static-item [![Bower version](https://badge.fury.io/bo/paper-static-item.svg)](http://badge.fury.io/bo/paper-static-item) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-static-item)
+
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-static-item)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-static-item.svg)](https://vaadin.com/directory/component/Collabornepaper-static-item)
 =========
 
 `paper-static-item` provides a Material Design non-focusable [item with header and content](https://www.google.com/design/spec/components/lists.html). The web component is built with [Polymer](https://www.polymer-project.org).
